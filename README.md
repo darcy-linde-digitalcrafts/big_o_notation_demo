@@ -116,8 +116,8 @@ Think of the volume of a cube or matrix multiplication.
 
 ## O (N log N)
 
-Go over N characters, but on the next iteration you only need to go over half
-of N.
+The runtime is proportional to the product of the input size and its logarithm.
+log(N) is smaller than N, so N log N is faster than N².
 
 ### Logarithms Review
 
